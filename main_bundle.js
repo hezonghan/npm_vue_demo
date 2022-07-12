@@ -16,7 +16,7 @@
   \*****************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n/* harmony import */ var _app_1_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app_1.vue */ \"./app_1.vue\");\n\r\n\r\n\r\n\r\n(0,vue__WEBPACK_IMPORTED_MODULE_0__.createApp)(_app_1_vue__WEBPACK_IMPORTED_MODULE_1__[\"default\"]).mount('#app_1_div');\r\n\n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n/* harmony import */ var _app_1_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app_1.vue */ \"./app_1.vue\");\n/* harmony import */ var _app_2_recursive_root_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app_2_recursive_root.vue */ \"./app_2_recursive_root.vue\");\n\r\n\r\n\r\n\r\n\r\n(0,vue__WEBPACK_IMPORTED_MODULE_0__.createApp)(_app_1_vue__WEBPACK_IMPORTED_MODULE_1__[\"default\"]).mount('#app_1_div');\r\n(0,vue__WEBPACK_IMPORTED_MODULE_0__.createApp)(_app_2_recursive_root_vue__WEBPACK_IMPORTED_MODULE_2__[\"default\"]).mount('#app_2_div');\r\n\n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./main.js?");
 
 /***/ }),
 
@@ -90,6 +90,46 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./app_2_recursive_node.vue":
+/*!**********************************!*\
+  !*** ./app_2_recursive_node.vue ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _app_2_recursive_node_vue_vue_type_template_id_6fd4d8f0__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app_2_recursive_node.vue?vue&type=template&id=6fd4d8f0 */ \"./app_2_recursive_node.vue?vue&type=template&id=6fd4d8f0\");\n/* harmony import */ var _app_2_recursive_node_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app_2_recursive_node.vue?vue&type=script&lang=js */ \"./app_2_recursive_node.vue?vue&type=script&lang=js\");\n/* harmony import */ var E_9_2022_06_2022_0712_03_npm_vue_demo_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ \"./node_modules/vue-loader/dist/exportHelper.js\");\n\n\n\n\n;\nconst __exports__ = /*#__PURE__*/(0,E_9_2022_06_2022_0712_03_npm_vue_demo_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(_app_2_recursive_node_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"], [['render',_app_2_recursive_node_vue_vue_type_template_id_6fd4d8f0__WEBPACK_IMPORTED_MODULE_0__.render],['__file',\"app_2_recursive_node.vue\"]])\n/* hot reload */\nif (false) {}\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);\n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./app_2_recursive_node.vue?");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_node.vue?vue&type=script&lang=js":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_node.vue?vue&type=script&lang=js ***!
+  \******************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n\r\n    /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\r\n        name: 'app_2_recursive_node',\r\n        props: ['current_node'],\r\n        data() { return {\r\n\r\n        }}\r\n    });\r\n\n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./app_2_recursive_node.vue?./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B2%5D.use%5B0%5D");
+
+/***/ }),
+
+/***/ "./app_2_recursive_root.vue":
+/*!**********************************!*\
+  !*** ./app_2_recursive_root.vue ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _app_2_recursive_root_vue_vue_type_template_id_7b32f668__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app_2_recursive_root.vue?vue&type=template&id=7b32f668 */ \"./app_2_recursive_root.vue?vue&type=template&id=7b32f668\");\n/* harmony import */ var _app_2_recursive_root_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app_2_recursive_root.vue?vue&type=script&lang=js */ \"./app_2_recursive_root.vue?vue&type=script&lang=js\");\n/* harmony import */ var E_9_2022_06_2022_0712_03_npm_vue_demo_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ \"./node_modules/vue-loader/dist/exportHelper.js\");\n\n\n\n\n;\nconst __exports__ = /*#__PURE__*/(0,E_9_2022_06_2022_0712_03_npm_vue_demo_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(_app_2_recursive_root_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"], [['render',_app_2_recursive_root_vue_vue_type_template_id_7b32f668__WEBPACK_IMPORTED_MODULE_0__.render],['__file',\"app_2_recursive_root.vue\"]])\n/* hot reload */\nif (false) {}\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);\n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./app_2_recursive_root.vue?");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_root.vue?vue&type=script&lang=js":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_root.vue?vue&type=script&lang=js ***!
+  \******************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _app_2_recursive_node_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app_2_recursive_node.vue */ \"./app_2_recursive_node.vue\");\n\r\n    \r\n\r\n    /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\r\n        name: 'app_2_recursive_root',\r\n        components: {app_2_recursive_node: _app_2_recursive_node_vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"]},\r\n        data() { return {\r\n            root_node: {  // complete_tree\r\n                text: 'a', sub_nodes: [\r\n                    {text: 'a_1', sub_nodes: [\r\n                        {text: 'a_1_1', sub_nodes: []},\r\n                        {text: 'a_1_2'},\r\n                    ]},\r\n                    {text: 'a_2', sub_nodes: [\r\n                        {text: 'a_2_1'},\r\n                        {text: 'a_2_2'},\r\n                        {text: 'a_2_3'},\r\n                    ]},\r\n                ],\r\n            }\r\n        } }\r\n    });\r\n\n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./app_2_recursive_root.vue?./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B2%5D.use%5B0%5D");
+
+/***/ }),
+
 /***/ "./app_1.vue?vue&type=script&lang=js":
 /*!*******************************************!*\
   !*** ./app_1.vue?vue&type=script&lang=js ***!
@@ -97,6 +137,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* reexport safe */ _node_modules_vue_loader_dist_index_js_ruleSet_1_rules_2_use_0_app_1_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _node_modules_vue_loader_dist_index_js_ruleSet_1_rules_2_use_0_app_1_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_1.vue?vue&type=script&lang=js */ \"./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_1.vue?vue&type=script&lang=js\");\n \n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./app_1.vue?");
+
+/***/ }),
+
+/***/ "./app_2_recursive_node.vue?vue&type=script&lang=js":
+/*!**********************************************************!*\
+  !*** ./app_2_recursive_node.vue?vue&type=script&lang=js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* reexport safe */ _node_modules_vue_loader_dist_index_js_ruleSet_1_rules_2_use_0_app_2_recursive_node_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _node_modules_vue_loader_dist_index_js_ruleSet_1_rules_2_use_0_app_2_recursive_node_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_node.vue?vue&type=script&lang=js */ \"./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_node.vue?vue&type=script&lang=js\");\n \n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./app_2_recursive_node.vue?");
+
+/***/ }),
+
+/***/ "./app_2_recursive_root.vue?vue&type=script&lang=js":
+/*!**********************************************************!*\
+  !*** ./app_2_recursive_root.vue?vue&type=script&lang=js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* reexport safe */ _node_modules_vue_loader_dist_index_js_ruleSet_1_rules_2_use_0_app_2_recursive_root_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _node_modules_vue_loader_dist_index_js_ruleSet_1_rules_2_use_0_app_2_recursive_root_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_root.vue?vue&type=script&lang=js */ \"./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_root.vue?vue&type=script&lang=js\");\n \n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./app_2_recursive_root.vue?");
 
 /***/ }),
 
@@ -110,6 +170,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./app_2_recursive_node.vue?vue&type=template&id=6fd4d8f0":
+/*!****************************************************************!*\
+  !*** ./app_2_recursive_node.vue?vue&type=template&id=6fd4d8f0 ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": () => (/* reexport safe */ _node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_1_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_2_use_0_app_2_recursive_node_vue_vue_type_template_id_6fd4d8f0__WEBPACK_IMPORTED_MODULE_0__.render)\n/* harmony export */ });\n/* harmony import */ var _node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_1_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_2_use_0_app_2_recursive_node_vue_vue_type_template_id_6fd4d8f0__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_node.vue?vue&type=template&id=6fd4d8f0 */ \"./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_node.vue?vue&type=template&id=6fd4d8f0\");\n\n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./app_2_recursive_node.vue?");
+
+/***/ }),
+
+/***/ "./app_2_recursive_root.vue?vue&type=template&id=7b32f668":
+/*!****************************************************************!*\
+  !*** ./app_2_recursive_root.vue?vue&type=template&id=7b32f668 ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": () => (/* reexport safe */ _node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_1_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_2_use_0_app_2_recursive_root_vue_vue_type_template_id_7b32f668__WEBPACK_IMPORTED_MODULE_0__.render)\n/* harmony export */ });\n/* harmony import */ var _node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_1_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_2_use_0_app_2_recursive_root_vue_vue_type_template_id_7b32f668__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_root.vue?vue&type=template&id=7b32f668 */ \"./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_root.vue?vue&type=template&id=7b32f668\");\n\n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./app_2_recursive_root.vue?");
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_1.vue?vue&type=template&id=0829bb75":
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_1.vue?vue&type=template&id=0829bb75 ***!
@@ -117,6 +197,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": () => (/* binding */ render)\n/* harmony export */ });\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n\n\nfunction render(_ctx, _cache, $props, $setup, $data, $options) {\n  return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(\"h1\", {\n    onClick: _cache[0] || (_cache[0] = $event => ($options.hello()))\n  }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.value), 1 /* TEXT */))\n}\n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./app_1.vue?./node_modules/vue-loader/dist/templateLoader.js??ruleSet%5B1%5D.rules%5B1%5D!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B2%5D.use%5B0%5D");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_node.vue?vue&type=template&id=6fd4d8f0":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_node.vue?vue&type=template&id=6fd4d8f0 ***!
+  \**********************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": () => (/* binding */ render)\n/* harmony export */ });\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n\n\nconst _hoisted_1 = { class: \"node_box\" }\nconst _hoisted_2 = { class: \"node_text\" }\nconst _hoisted_3 = { key: 0 }\n\nfunction render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_app_2_recursive_node = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)(\"app_2_recursive_node\", true)\n\n  return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(\"div\", _hoisted_1, [\n    (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)(\"div\", _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.current_node.text), 1 /* TEXT */),\n    (($props.current_node.sub_nodes))\n      ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(\"div\", _hoisted_3, [\n          ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.current_node.sub_nodes, (sub_node) => {\n            return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_app_2_recursive_node, { current_node: sub_node }, null, 8 /* PROPS */, [\"current_node\"]))\n          }), 256 /* UNKEYED_FRAGMENT */))\n        ]))\n      : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(\"v-if\", true)\n  ]))\n}\n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./app_2_recursive_node.vue?./node_modules/vue-loader/dist/templateLoader.js??ruleSet%5B1%5D.rules%5B1%5D!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B2%5D.use%5B0%5D");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_root.vue?vue&type=template&id=7b32f668":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[2].use[0]!./app_2_recursive_root.vue?vue&type=template&id=7b32f668 ***!
+  \**********************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": () => (/* binding */ render)\n/* harmony export */ });\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n\n\nfunction render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_app_2_recursive_node = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)(\"app_2_recursive_node\")\n\n  return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_app_2_recursive_node, { current_node: $data.root_node }, null, 8 /* PROPS */, [\"current_node\"]))\n}\n\n//# sourceURL=webpack://2022_0712_03_npm_vue_demo/./app_2_recursive_root.vue?./node_modules/vue-loader/dist/templateLoader.js??ruleSet%5B1%5D.rules%5B1%5D!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B2%5D.use%5B0%5D");
 
 /***/ }),
 

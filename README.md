@@ -67,3 +67,11 @@ Then the app can be visited by a browser at
 http://localhost:8888/
 ```
 
+
+
+### create recursive component
+
+A "recursive_node" component recursively contains itself, so we can print a tree.
+
+reference: [《vue组件递归》](https://blog.csdn.net/yuanwen52/article/details/122930427).
+
