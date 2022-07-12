@@ -27,3 +27,11 @@ npm install --save-dev  webpack@5.73.0  webpack-cli@4.10.0  vue-loader@17.0.0  v
 
 ```
 
+
+
+### create src files
+
+The source files `index.html`, `main.js`, `app_1.vue` are prepared in SFC style.
+
+
+
