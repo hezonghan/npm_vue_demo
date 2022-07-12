@@ -51,3 +51,19 @@ Run (for Windows):
 
 to pack the sources, and get a bundle file.
 
+
+
+### launch
+
+A simple way to build a server to launch the app is using python's server. Run:
+
+```
+python -m http.server 8888
+```
+
+Then the app can be visited by a browser at
+
+```
+http://localhost:8888/
+```
+
