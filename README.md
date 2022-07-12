@@ -75,3 +75,30 @@ A "recursive_node" component recursively contains itself, so we can print a tree
 
 reference: [《vue组件递归》](https://blog.csdn.net/yuanwen52/article/details/122930427).
 
+
+
+### add CSS styles in `.vue` file
+
+Run:
+
+```
+npm install --save-dev  css-loader@6.7.1  style-loader@3.3.1
+```
+
+
+
+Modify the `webpack.config.js` to add a rule to load CSS style.
+
+```js
+{
+    test: /\.css$/,
+    use:['style-loader','css-loader']
+}
+```
+
+
+
+Then, add styles in `.vue` file, and finally run webpack.
+
+
+

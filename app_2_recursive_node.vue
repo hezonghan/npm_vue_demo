@@ -16,3 +16,16 @@
         }}
     };
 </script>
+
+<style>
+    .node_box {
+        display: flex; flex-direction: row;
+    }
+    .node_text {
+        border: black 1px solid;
+        background-color: pink; padding: 5px; min-width: 30px;
+    }
+    .node_sub_nodes {
+        
+    }
+</style>
