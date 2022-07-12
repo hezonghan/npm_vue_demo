@@ -39,3 +39,15 @@ The source files `index.html`, `main.js`, `app_1.vue` are prepared in SFC style.
 
 The file configures the webpack.
 
+
+
+### webpack
+
+Run (for Windows):
+
+```
+.\node_modules\.bin\webpack
+```
+
+to pack the sources, and get a bundle file.
+
